@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokédex</title>
     <link href="./styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +16,9 @@
                 <div class="col-12 col-md-2 logo-container d-flex justify-content-center">
                     <img src="img/logo.png" class="img-fluid w-50">
                     <span class="my-auto">POKEDEX</span>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button> -->
                 </div>
                 <div class="col-12 col-md-8 navbar-container">
                     <nav class="navbar navbar-expand-lg">
@@ -27,16 +27,15 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav main-menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link" href="#">Pokémon</a>
                                     </li>
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
+                                        <a class="nav-link" href="#">Tipos</a>
                                     </li>
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">4</a>
+                                        <a class="nav-link" href="#">Habilidades</a>
                                     </li>
                                 </ul>
                             </div>
@@ -55,13 +54,13 @@
          
                 <div class="row p-3">
                     <div class="col-12">
-                        <form class="row">
+                        <form class="row" id="form1">
                             <div class="col-4">
                                 <div class="input-group form-search-input-container">
                                     <span class="input-group-text">
                                         <i class="bi bi-search"></i>
                                     </span>
-                                    <input type="text" class="form-control" placeholder="Pokemon" name="pokemonSearch">
+                                    <input type="text" class="form-control" placeholder="Pokemon" name="pokedex-number" id="pokemon-name">
                                 </div>
                                
                             </div>
